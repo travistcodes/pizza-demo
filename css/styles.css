@@ -9,10 +9,12 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: #eee;
+  padding-top: 100px;
 }
 
 /* HEADER  */
 .header-menu {
+  height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,6 +22,11 @@ body {
   background-color: #222;
   color: #eee;
   padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 15;
 }
 
 .nav-menu {
@@ -38,7 +45,7 @@ body {
 
 .link-menu a:hover {
   color: blue;
-  text-decoration: wavy;
+  text-decoration: underline;
 }
 
 .h3-name {
@@ -47,12 +54,44 @@ body {
   letter-spacing: 2px;
 }
 
-/* SECTION IMAGE  */
+/* SECTION-IMAGE  */
 
 .section-image {
-  height: 500px;
+  position: relative;
+  /* top: 105px; */
+  /* height: 500px; */
+  height: 90vh;
   background-image: url("/assets/images/pic1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #eee;
 }
+
+.changing {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+}
+
+/* SECTION-MAIN  */
+
+.section-main {
+  background-color: #222;
+  height: 500px;
+  /* height: 100vh; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 50px;
+}
+
+.card {
+  color: #eee;
+  border: 1px solid #eee;
+}
+
+/* FOOTER-NAV */
