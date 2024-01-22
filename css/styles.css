@@ -54,10 +54,6 @@ body {
   letter-spacing: 2px;
 }
 
-.h3-para {
-  padding: 10px 10px 0 10px;
-}
-
 .profile {
   font-size: 15px;
   font-weight: bold;
@@ -75,7 +71,8 @@ body {
 
 .profile:hover {
   color: #eee;
-  background-color: rgb(30, 30, 106);
+  background-color: blue;
+  transition: 1s ease;
 }
 
 /* SECTION-IMAGE  */
@@ -92,7 +89,7 @@ body {
   color: #eee;
 }
 
-.changing {
+.image-text {
   font-size: 2rem;
   letter-spacing: 2px;
   position: absolute;
@@ -105,14 +102,19 @@ body {
 
 .section-main {
   background-color: #222;
-  /* height: 500px; */
-  height: 100vh;
+  height: 750px;
+  /* height: 100vh; */
   display: grid;
   grid-template-columns: 400px 400px;
   grid-template-rows: 300px 300px;
   justify-content: center;
   gap: 50px;
   padding: 50px;
+}
+
+.h3-para {
+  padding: 10px 10px 0 10px;
+  letter-spacing: 2px;
 }
 
 .card {
@@ -140,3 +142,30 @@ span {
 }
 
 /* FOOTER-NAV */
+.footer-div {
+  /* background-color: #ddd; */
+  /* height: 100px; */
+  width: 100%;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  padding: 0 15px;
+  font-size: 1.5rem;
+  list-style: none;
+  background-color: #ddd;
+}
+
+.footer-list li {
+  background-color: #222;
+  color: #eee;
+  padding: 10px;
+  border-radius: 45deg;
+}
+
+.bigger-li {
+  font-size: 2.2rem;
+}
