@@ -50,28 +50,28 @@ body {
 
 .h3-name {
   font-size: 2rem;
-  font-family: cursive;
+  font-family: seri;
   letter-spacing: 2px;
 }
 
 .profile {
-  font-size: 15px;
-  font-weight: bold;
-  background-color: #eee;
-  color: #222;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 10px;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
+  
+    cursor: pointer;
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.profile img {
+  border-radius: 40%;
+  width: 60x;
+  height: 60px;
 }
 
 .profile:hover {
   color: #eee;
-  background-color: blue;
+  background-color: yellow;
   transition: 1s ease;
 }
 
