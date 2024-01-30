@@ -44,7 +44,7 @@ body {
 }
 
 .link-menu a:hover {
-  color: blue;
+  color: yellow;
   text-decoration: underline;
 }
 
@@ -115,6 +115,7 @@ body {
 .h3-para {
   padding: 10px 10px 0 10px;
   letter-spacing: 2px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card {
