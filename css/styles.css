@@ -8,7 +8,7 @@
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color: #014A07;
+  background-color: #014a07;
   padding-top: 100px;
 }
 
@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  background-color: #014A07;
+  background-color: #014a07;
   color: #eee;
   padding: 20px;
   position: fixed;
@@ -55,14 +55,13 @@ body {
 }
 
 .profile {
-  
-    cursor: pointer;
-    background-color: inherit;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  cursor: pointer;
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .profile img {
   border-radius: 20%;
   width: 60x;
@@ -115,20 +114,31 @@ body {
 .h3-para {
   padding: 10px 10px 0 10px;
   letter-spacing: 2px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .card {
   color: #eee;
   border: 1px solid #eee;
-  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem;
 }
-
 
 .button {
   width: 40%;
   margin: 0 auto;
   border-radius: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: yellow;
+  color: #014a07;
+  box-shadow: 5px 5px 5px yellow;
+  font-size: 2rem;
+  transition: 1s ease;
 }
 
 span {
@@ -158,13 +168,14 @@ span {
   padding: 0 15px;
   font-size: 1.5rem;
   list-style: none;
-  background-color: #014A07;
+  background-color: #014a07;
 }
 
 .footer-list li {
   color: #eee;
   padding: 10px;
   border-radius: 45deg;
+  cursor: pointer;
 }
 
 .bigger-li {
