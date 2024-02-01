@@ -100,7 +100,7 @@ body {
 /* SECTION-MAIN  */
 
 .section-main {
-  background-color: #222;
+  background-color: #8f0606;
   height: 750px;
   /* height: 100vh; */
   display: grid;
@@ -125,6 +125,7 @@ body {
   justify-content: space-between;
   padding: 1.5rem;
 }
+
 
 .button {
   width: 40%;
